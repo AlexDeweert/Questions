@@ -15,7 +15,7 @@
             $img = file_get_contents($_FILES["file"]["tmp_name"]);
             $filename = $_FILES["file"]["name"];
             file_put_contents("./$filename",$img);
-            echo("<div id = \"divbg\" style = \"background-image:url('$filename')\">a</div>");
+            echo("<div data = \"$filename\" id = \"horse-selfie\" style = \"background-image:url('$filename')\">a</div>");
         }
         
         if( isset($_POST["submit"])) {
