@@ -5,7 +5,7 @@
 </head>
 <body>
 
-    <form action = "site.php" method = "post" enctype = "multipart/form-data">
+    <form action = "question4.php" method = "post" enctype = "multipart/form-data">
         <input type="file" name="file" id="file"><br>
         <input type="submit" name="submit" value="Submit">
     </form>
